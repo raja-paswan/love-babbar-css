@@ -1,0 +1,23 @@
+.box{
+    border: 2px solid red;
+    height: 250px;
+    width:150px;
+    /* background-image: linear-gradient(red, blue,black,pink,aqua,green,yellow,#fafa); */
+    /* background-image:linear-gradient(to bottom,rgb(56, 171, 48),blue) 
+    if we set to reght then move right if we set to left then move left*/
+    /* (last satment always pic) */
+    /* let a in dian falg */
+    background-image: linear-gradient(orange,white,green);
+}
+
+/* radical gradient */
+
+/* .box{
+    border: 2px solid red;
+    height: 250px;
+    width: 135px;
+    background-image: radial-gradient(red,blue,pink);
+    background-image: radial-gradient(circle,red,black);
+    background-image: linear-gradient(90deg,red,blue);
+    we can aolso go with angle */
+    /* background-image: linear-gradient(to bottom,); */
