@@ -27,3 +27,14 @@
         /* overflow: scroll; */
         overflow: auto;
     }
+
+    /* 2D transform  */
+    .div5{
+        background-color: aquamarine;
+        /* transform: translate(120px,50px); */
+        /* transform: rotate(-45deg); */
+        /* transform: scale(5 ,1) */
+        /* (5=horizantal,1=vertical) */
+        /* transform: scaleX(3); */
+        transform: scaleY(5);
+    }
