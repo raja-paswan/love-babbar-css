@@ -1,0 +1,14 @@
+h1{
+    /* text-shadow: 2px 1px;
+    text-shadow:5px 8px red; */
+    text-shadow: 3px 3px 3px red 5px 5px 5px green;
+}
+.box{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    /* box-shadow: 5px 5px; */
+    /* jo text ka collaer hota hai wahi box ka shadow hota hai */
+    box-shadow: -10px -10px 15px green,15px 15px 15px brown;
+    color: red;
+}
