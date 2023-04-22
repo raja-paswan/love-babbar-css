@@ -1,14 +1,29 @@
-h1{
+/* h1{
     /* text-shadow: 2px 1px;
     text-shadow:5px 8px red; */
-    text-shadow: 3px 3px 3px red 5px 5px 5px green;
-}
-.box{
+    /* text-shadow: 3px 3px 3px red 5px 5px 5px green;
+} */ 
+/* .box{
     height: 500px;
     width: 500px;
     background-color: aqua;
     /* box-shadow: 5px 5px; */
     /* jo text ka collaer hota hai wahi box ka shadow hota hai */
-    box-shadow: -10px -10px 15px green,15px 15px 15px brown;
-    color: red;
-}
+    /* box-shadow: -10px -10px 15px green,15px 15px 15px brown;
+    color: red; */
+
+
+    /*  */
+    /* max width */
+    h1{
+        max-height: 100px;
+        border: 1px solid black;
+        overflow: scroll;
+    }
+    .div{
+        max-height: 80px;
+        border: 1px solid black;
+        /* overflow: hidden; */
+        /* overflow: scroll; */
+        overflow: auto;
+    }
